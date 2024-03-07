@@ -1,1 +1,1 @@
-# siteprojet
+Voici le site pour notre projet de jeu vidéo
