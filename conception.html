@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conception</title>
-
+    <link rel="icon" type="image/x-icon" href="source/icone_pizza.png" />
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
        
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -33,12 +37,70 @@
       </nav>
 
       <div class="container">
-        <img src="source/cooking_papa_logo.png" alt="cooking_papa_logo" class="img-center">
-        <p class="text-center">
-            le developpement du jeu
-        </p>
-      </div>
-
+        <img src="source/cooking_papa_logo.png" alt="cooking_papa_logo" class="img-responsive img-center">
+        <br>
+        <h1 class="text-center">
+          Le developpement du jeu
+      </h1>        
+        <br>
+        <br>
       
-</body>
+        <table>
+          <h2 >
+        -> NOS PÉRIPÉTIES
+        <br>
+          </h2>  <thead>
+            <tr>
+              <th scope="col">Problèmes rencontrés</th>
+              <th  scope="col" class="text-center">Solutions envisagés</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Git pull pour fichiers trop lourds</th>
+              <td>Utilisation du git lfs au lieu du simple git </td>
+            </tr>
+            <tr>
+              <th scope="row">Accès limité au jeu sur Unity</th>
+              <td>Nous avons dû revérifier les accès et supprimer le dossier Libray et eventuellement le Temp si il existe, ainsi que les fichiers terminant par .meta dans les dossiers et sous dossiers de Assets. </td>
+            </tr> 
+            <tr>
+              <th scope="row">PB2</th>
+              <td>SOLU2</td>
+            </tr>
+            <tr>
+              <th scope="row">PB2</th>
+              <td>SOLU2</td>
+            </tr>
+            <tr>
+              <th scope="row">PB2</th>
+              <td>SOLU2</td>
+            </tr>
+            <tr>
+              <th scope="row">PB2</th>
+              <td>SOLU2</td>
+            </tr>
+          </tfoot>
+        </table>
+        <br>
+        <br>
+      </div>
+      <div class="page-section container row">
+          <div class="page-section container row">
+            <div class="row"> 
+              <div class="position-relative m-4">
+                  <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
+                      <div class="progress-bar" style="width: 60%"></div>
+                  </div>
+                  <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill btn-responsive" style="width: 2rem; height:2rem;">1</button>
+                  <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill btn-responsive" style="width: 2rem; height:2rem;">2</button>
+                  <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill btn-responsive" style="width: 2rem; height:2rem;">3</button>
+                </div>
+              </div>
+            <img alt="Diagram Gantt" src="source/diagrammdeGantt.png" class="img-responsive"/>
+      </div>
+    </div><img alt="Pizza cheesy" src="source/pizza-rond.gif" class="circle img img-center"/>
+  </div>
+  </div>
+      </body>
 </html>
