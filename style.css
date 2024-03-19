@@ -100,7 +100,7 @@ body{
   
   th,
   td {
-    border: 1px solid rgb(58, 34, 7);
+    border: 1px solid rgb(2, 1, 0);
     padding: 8px 10px;
   }
   
@@ -119,5 +119,6 @@ body{
   tfoot td {
     font-weight: bold;
   }
+  
  
   
